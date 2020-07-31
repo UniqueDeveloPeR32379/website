@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to display the date and time this website was last modified.</p>
+
+<p><strong>THIS WEB-PAGE IS ONLY FOR INTERNAL USE, UN-AUTHORIZED USE IS PROBIHITED</strong></p>
+
+<button onclick="myFunction()">Last Modification</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = new Date(document.lastModified);
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
